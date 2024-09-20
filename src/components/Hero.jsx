@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Hero = () => {
   return (
@@ -10,12 +9,9 @@ const Hero = () => {
         <div className="text-center">
           <h1
             className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
-          >
-            Become a Remote Worker
-          </h1>
+          >Find Your Next Digital Career</h1>
           <p className="my-4 text-xl text-white">
-            Find the Digital job that fits your skills and talents
-          </p>
+          Discover top opportunities in tech, marketing, design, and more. Start your journey in the digital world today!</p>
         </div>
       </div>
     </section>
