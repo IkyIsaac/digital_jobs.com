@@ -12,7 +12,7 @@ const Navbar = () => {
           <div
             className="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
           >
-            <NavLink className="flex flex-shrink-0 items-center mr-4" href="/">
+            <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
               <img
                 className="h-10 w-auto rounded-full"
                 src={image}
@@ -32,7 +32,7 @@ const Navbar = () => {
                   className={linkClass}
                   >Jobs</NavLink>
                 <NavLink
-                  to="/add-jobs"
+                  to="/add-job"
                   className={linkClass}
                   >Add Job</NavLink>
               </div>
